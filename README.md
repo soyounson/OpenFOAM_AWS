@@ -18,48 +18,59 @@
 <div>
 <img width="1308" alt="01_AWS_marketplace" src="https://user-images.githubusercontent.com/40614421/100488285-9b9c9c00-310d-11eb-8ae4-2c528ece5a47.png">
 </div>
+
 * type `CFDDFC`
 <div>
 <img width="1306" alt="02_AWS_CFD_direct from the cloud" src="https://user-images.githubusercontent.com/40614421/100488296-a9522180-310d-11eb-9f05-dd1d362831f7.png">
 </div>
+
 * Select the CFD Direct From the Cloud (CAUSION! Free tier eligible)
 <div>
 <img width="1306" alt="03_select_free_tier" src="https://user-images.githubusercontent.com/40614421/100488299-ace5a880-310d-11eb-870f-89ddb64888a9.png">
 </div>
+
 * Choose an instance type
 <div>
 <img width="1309" alt="04_instance type" src="https://user-images.githubusercontent.com/40614421/100488307-b7a03d80-310d-11eb-8738-c5ae7c69de97.png">
 </div>
+
 * (additional) configure security group 
 <div>
 <img width="1308" alt="05_configure_security group" src="https://user-images.githubusercontent.com/40614421/100488312-be2eb500-310d-11eb-9162-1258dc71ff1b.png">
 </div>
+
 * Review and click Launch button at the right end
 <div>
 <img width="1307" alt="07_review instance" src="https://user-images.githubusercontent.com/40614421/100488316-c2f36900-310d-11eb-8292-6c0ae4c92a55.png">
 </div>
+
 * Choose an existing key pair or create new one
 <div>
 <img width="1306" alt="08_key pair" src="https://user-images.githubusercontent.com/40614421/100488320-ca1a7700-310d-11eb-80f8-b902cd57893b.png">
 </div>
+
 * Connect to your instance
 <div>
 <img width="1306" alt="09_connect" src="https://user-images.githubusercontent.com/40614421/100488324-d272b200-310d-11eb-9c73-d0986e19a57b.png">
 </div>
+
 * 1st option) connect from the Amazon EC2 console 
 > click Connect button at the right end
 <div>
 <img width="1306" alt="10_connect" src="https://user-images.githubusercontent.com/40614421/100488335-de5e7400-310d-11eb-8712-aa59cf7fc729.png">
 </div>
+
 > Following terminal window opens
 <div>
 <img width="1306" alt="10_2" src="https://user-images.githubusercontent.com/40614421/100488340-e61e1880-310d-11eb-95d2-aa0ea7470b1f.png">
 </div>
+
 * 2nd option) connect with SSH client
 > copy `ssh -i "your key.pem" ubuntu@your-instance-id.compute.amazonaws.com` 
 <div>
 <img width="1289" alt="11_connect_ssh" src="https://user-images.githubusercontent.com/40614421/100488346-ecac9000-310d-11eb-9366-013d50da1742.png">
 </div>
+
 > open terminal and go to directory where your key.pem locates
 ```
 (base) ist-xxxxxx:~ $ ssh -i "your key.pem" ubuntu@your-instance-id.compute.amazonaws.com
